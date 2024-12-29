@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "api.eclipse.controle.projetos.Controllers.ProjetoController",
+    "Method": "CriarProjetoAsync",
+    "RelativePath": "Projeto/CriarProjetoAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.eclipse.controle.projetos.Controllers.TarefasController",
+    "Method": "CriarTarefaAsync",
+    "RelativePath": "Tarefas/CriarTarefaAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
