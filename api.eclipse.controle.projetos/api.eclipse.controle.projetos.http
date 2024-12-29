@@ -1,0 +1,6 @@
+@api.eclipse.controle.projetos_HostAddress = http://localhost:5025
+
+GET {{api.eclipse.controle.projetos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
