@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3GkH+eoj/Cw=",
+  "dgSpecHash": "42xD4+D4bDqSATMPO3Rxsmu3+xdhcMe30+bJK848T+xy9+EMwmO/wKcY9nBO2cQF/b5ZxYvZPG6x8c/cOYYcAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brb-s\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\brb-s\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\brb-s\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\brb-s\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\brb-s\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

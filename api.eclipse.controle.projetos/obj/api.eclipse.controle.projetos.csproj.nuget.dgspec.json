@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj": {}
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj": {
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj",
-        "projectName": "api.eclipse.controle.projetos.CrossCutting.IoC",
-        "projectPath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj",
-        "packagesPath": "C:\\Users\\ERLIS.LIMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\obj\\",
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj",
+        "projectName": "api.eclipse.controle.projetos.Application",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ERLIS.LIMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,13 +26,160 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj"
+              },
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj",
+        "projectName": "api.eclipse.controle.projetos.Common",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj",
+        "projectName": "api.eclipse.controle.projetos.CrossCutting.IoC",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj"
+              },
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -67,21 +218,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj": {
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj",
-        "projectName": "api.eclipse.controle.projetos",
-        "projectPath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj",
-        "packagesPath": "C:\\Users\\ERLIS.LIMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\obj\\",
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj",
+        "projectName": "api.eclipse.controle.projetos.Data",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ERLIS.LIMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,15 +244,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj": {
-                "projectPath": "C:\\Users\\ERLIS.LIMA\\source\\repos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj"
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj"
               }
             }
           }
@@ -117,6 +271,151 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj",
+        "projectName": "api.eclipse.controle.projetos.Domain",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj",
+        "projectName": "api.eclipse.controle.projetos",
+        "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj"
+              },
+              "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.CrossCutting\\api.eclipse.controle.projetos.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
@@ -145,7 +444,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

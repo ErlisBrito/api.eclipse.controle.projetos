@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\api.eclipse.controle.projetos.Common\api.eclipse.controle.projetos.Common.csproj" />
+    <ProjectReference Include="..\api.eclipse.controle.projetos.Domain\api.eclipse.controle.projetos.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
