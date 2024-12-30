@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Projetos\\api.eclipse.controle.projetos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1587C0DC-E9FC-4076-B101-28329B11945A}|api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.common\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1587C0DC-E9FC-4076-B101-28329B11945A}|api.eclipse.controle.projetos.Common\\api.eclipse.controle.projetos.Common.csproj|solutionrelative:api.eclipse.controle.projetos.common\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D76E411D-BEDE-4375-A5C3-A86866482667}|api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\controllers\\hisroricotarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D76E411D-BEDE-4375-A5C3-A86866482667}|api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj|solutionrelative:api.eclipse.controle.projetos\\controllers\\hisroricotarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.data\\repository\\projetosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|solutionrelative:api.eclipse.controle.projetos.data\\repository\\projetosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.tests\\contexts\\eclipsecontext_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|solutionrelative:api.eclipse.controle.projetos.tests\\contexts\\eclipsecontext_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.application\\viewmodels\\historicotarefaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|solutionrelative:api.eclipse.controle.projetos.application\\viewmodels\\historicotarefaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.data\\contexts\\eclipsecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|solutionrelative:api.eclipse.controle.projetos.data\\contexts\\eclipsecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.tests\\repository\\tarefarepository_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|solutionrelative:api.eclipse.controle.projetos.tests\\repository\\tarefarepository_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D76E411D-BEDE-4375-A5C3-A86866482667}|api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D76E411D-BEDE-4375-A5C3-A86866482667}|api.eclipse.controle.projetos\\api.eclipse.controle.projetos.csproj|solutionrelative:api.eclipse.controle.projetos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}|api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.domain\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}|api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj|solutionrelative:api.eclipse.controle.projetos.domain\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.data\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}|api.eclipse.controle.projetos.Data\\api.eclipse.controle.projetos.Data.csproj|solutionrelative:api.eclipse.controle.projetos.data\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.tests\\repository\\historicotarefarepository_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|solutionrelative:api.eclipse.controle.projetos.tests\\repository\\historicotarefarepository_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}|api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.domain\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}|api.eclipse.controle.projetos.Domain\\api.eclipse.controle.projetos.Domain.csproj|solutionrelative:api.eclipse.controle.projetos.domain\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.application\\services\\tarefasappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|solutionrelative:api.eclipse.controle.projetos.application\\services\\tarefasappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.application\\interfaces\\irelatorioappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}|api.eclipse.controle.projetos.Application\\api.eclipse.controle.projetos.Application.csproj|solutionrelative:api.eclipse.controle.projetos.application\\interfaces\\irelatorioappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|c:\\projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.tests\\common\\resultado_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8B640A-D292-4F14-977A-1881C482E54E}|api.eclipse.controle.projetos.Tests\\api.eclipse.controle.projetos.Tests.csproj|solutionrelative:api.eclipse.controle.projetos.tests\\common\\resultado_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,152 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Resultado.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\Resultado.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Common\\Resultado.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Common\\Resultado.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Common\\Resultado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Title": "HisroricoTarefaController.cs",
+              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\Controllers\\HisroricoTarefaController.cs",
+              "RelativeDocumentMoniker": "api.eclipse.controle.projetos\\Controllers\\HisroricoTarefaController.cs",
+              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\Controllers\\HisroricoTarefaController.cs",
+              "RelativeToolTip": "api.eclipse.controle.projetos\\Controllers\\HisroricoTarefaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T22:09:02.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HistoricoTarefaViewModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\ViewModels\\HistoricoTarefaViewModel.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Application\\ViewModels\\HistoricoTarefaViewModel.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\ViewModels\\HistoricoTarefaViewModel.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Application\\ViewModels\\HistoricoTarefaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T22:08:36.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TarefaRepository_Test.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Repository\\TarefaRepository_Test.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Tests\\Repository\\TarefaRepository_Test.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Repository\\TarefaRepository_Test.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Tests\\Repository\\TarefaRepository_Test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T21:21:10.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HistoricoTarefaRepository_Test.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Repository\\HistoricoTarefaRepository_Test.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Tests\\Repository\\HistoricoTarefaRepository_Test.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Repository\\HistoricoTarefaRepository_Test.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Tests\\Repository\\HistoricoTarefaRepository_Test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T20:56:55.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TarefaRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Repository\\TarefaRepository.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Data\\Repository\\TarefaRepository.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Repository\\TarefaRepository.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Data\\Repository\\TarefaRepository.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwEoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T21:17:51.603Z",
+              "WhenOpened": "2024-12-30T22:25:55.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProjetosRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Repository\\ProjetosRepository.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Data\\Repository\\ProjetosRepository.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Repository\\ProjetosRepository.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Data\\Repository\\ProjetosRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Title": "EclipseContext_Test.cs",
+              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Contexts\\EclipseContext_Test.cs",
+              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Tests\\Contexts\\EclipseContext_Test.cs",
+              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Contexts\\EclipseContext_Test.cs",
+              "RelativeToolTip": "api.eclipse.controle.projetos.Tests\\Contexts\\EclipseContext_Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T20:53:52.193Z",
+              "WhenOpened": "2024-12-30T22:28:57.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITarefaRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\Interfaces\\ITarefaRepository.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Domain\\Interfaces\\ITarefaRepository.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\Interfaces\\ITarefaRepository.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Domain\\Interfaces\\ITarefaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABIAAAA",
+              "DocumentIndex": 2,
+              "Title": "EclipseContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Contexts\\EclipseContext.cs",
+              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Data\\Contexts\\EclipseContext.cs",
+              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Data\\Contexts\\EclipseContext.cs",
+              "RelativeToolTip": "api.eclipse.controle.projetos.Data\\Contexts\\EclipseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T18:40:21.66Z",
+              "WhenOpened": "2024-12-30T22:27:34.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRelatorioAppServices.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\Interfaces\\IRelatorioAppServices.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Application\\Interfaces\\IRelatorioAppServices.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\Interfaces\\IRelatorioAppServices.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Application\\Interfaces\\IRelatorioAppServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T17:08:35.928Z",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\Dockerfile",
+              "RelativeDocumentMoniker": "api.eclipse.controle.projetos\\Dockerfile",
+              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos\\Dockerfile",
+              "RelativeToolTip": "api.eclipse.controle.projetos\\Dockerfile",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwB0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-30T22:21:14.614Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TarefasAppServices.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\Services\\TarefasAppServices.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Application\\Services\\TarefasAppServices.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Application\\Services\\TarefasAppServices.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Application\\Services\\TarefasAppServices.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwCsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:55:02.855Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "8508f51f-4a21-4d20-a87d-8630cd63b161",
-        "Display": 0,
-        "X": 514,
-        "Y": 358,
-        "Width": 1907,
-        "Height": 788,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Tarefa.cs",
-              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\Models\\Tarefa.cs",
-              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Domain\\Models\\Tarefa.cs",
-              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Domain\\Models\\Tarefa.cs",
-              "RelativeToolTip": "api.eclipse.controle.projetos.Domain\\Models\\Tarefa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Title": "Resultado_Tests.cs",
+              "DocumentMoniker": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Common\\Resultado_Tests.cs",
+              "RelativeDocumentMoniker": "api.eclipse.controle.projetos.Tests\\Common\\Resultado_Tests.cs",
+              "ToolTip": "C:\\Projetos\\api.eclipse.controle.projetos\\api.eclipse.controle.projetos.Tests\\Common\\Resultado_Tests.cs",
+              "RelativeToolTip": "api.eclipse.controle.projetos.Tests\\Common\\Resultado_Tests.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T21:27:05.445Z",
+              "WhenOpened": "2024-12-30T22:16:16.658Z",
               "EditorCaption": ""
             }
           ]
