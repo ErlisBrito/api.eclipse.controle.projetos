@@ -58,7 +58,7 @@ namespace api.eclipse.controle.projetos.Application.Services
                 var prioridade = await _tarefaRepository.ObterTarefaAsync(model.Id);
 
                 var tarefa = _mapper.Map<Tarefa>(model);
-                if(prioridade.ProjetoId != tarefa.ProjetoId)
+                if (prioridade.ProjetoId != tarefa.ProjetoId)
                 {
                     tarefa.ProjetoId = prioridade.ProjetoId;
                 }
@@ -123,6 +123,29 @@ namespace api.eclipse.controle.projetos.Application.Services
                 return new Resultado<List<TarefaViewModel>>()
                 {
                     Mensagem = $"Erro ao listar as tarefas: {ex.Message}!",
+                    StatusCode = System.Net.HttpStatusCode.InternalServerError,
+                };
+            }
+        }
+
+        public async Task<Resultado<List<RelatorioDesempenhoViewModel>>> GerarRelatorioDesempenhoAsync()
+        {
+            try
+            {
+                var response = await _tarefaRepository.GerarRelatorioDesempenhoAsync();
+                var lstProjetoViewModel = _mapper.Map<List<RelatorioDesempenhoViewModel>>(response);
+                var resultado = new Resultado<List<RelatorioDesempenhoViewModel>>()
+                {
+                    StatusCode = System.Net.HttpStatusCode.OK,
+                    Model = lstProjetoViewModel
+                };
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                return new Resultado<List<RelatorioDesempenhoViewModel>>()
+                {
+                    Mensagem = $"Erro ao gerar relatorio de desempenho: {ex.Message}!",
                     StatusCode = System.Net.HttpStatusCode.InternalServerError,
                 };
             }

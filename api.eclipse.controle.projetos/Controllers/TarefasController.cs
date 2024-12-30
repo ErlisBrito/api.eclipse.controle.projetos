@@ -62,6 +62,17 @@ namespace api.eclipse.controle.projetos.Controllers
             return StatusCode((int)result.StatusCode, new { Mensagem = result.Mensagem });
         }
 
+        [HttpGet("GerarRelatorioDesempenhoAsync")]
+        public async Task<IActionResult> GerarRelatorioDesempenhoAsync()
+        {
+            var result = await _tarefasAppServices.GerarRelatorioDesempenhoAsync();
+            if (result.StatusCode.Equals(HttpStatusCode.OK))
+            {
+                return Ok(result);
+            }
+            return StatusCode((int)result.StatusCode, new { Mensagem = result.Mensagem });
+        }
+
         [HttpPost("EditarTarefaAsync")]
         public async Task<IActionResult> EditarTarefaAsync(TarefaViewModel model)
         {

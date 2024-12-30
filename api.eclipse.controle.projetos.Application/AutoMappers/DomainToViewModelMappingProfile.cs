@@ -10,7 +10,7 @@ namespace api.eclipse.controle.projetos.Application.AutoMappers
         {
             CreateMap<Projetos, ProjetoViewModel>();
             CreateMap<Tarefa, TarefaViewModel>();
-            //CreateMap<Pedido, PedidoViewModel>();
+            CreateMap<RelatorioDesempenho, RelatorioDesempenhoViewModel>();
         }
     }
 }

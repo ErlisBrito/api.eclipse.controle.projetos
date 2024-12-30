@@ -11,6 +11,7 @@ namespace api.eclipse.controle.projetos.Application.AutoMappers
             CreateMap<ProjetoViewModel, Projetos>();
             CreateMap<TarefaViewModel, Tarefa>();
             CreateMap<HistoricoTarefaViewModel, HistoricoTarefa>();
+            CreateMap<RelatorioDesempenhoViewModel, RelatorioDesempenho>();
         }
     }
 }

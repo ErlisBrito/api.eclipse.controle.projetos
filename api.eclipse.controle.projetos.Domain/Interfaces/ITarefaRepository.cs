@@ -12,5 +12,6 @@ namespace api.eclipse.controle.projetos.Domain.Interfaces
         Task SalvarTarefaAsync(Tarefa tarefa);
         Task AtualizarTarefaAsync(Tarefa tarefa);
         Task<Tarefa> ObterTarefaAsync(int id);
+        Task<List<RelatorioDesempenho>> GerarRelatorioDesempenhoAsync();
     }
 }

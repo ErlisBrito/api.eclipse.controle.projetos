@@ -11,5 +11,6 @@ namespace api.eclipse.controle.projetos.Application.Interfaces
         Task<Resultado<List<TarefaViewModel>>> ListarTarefasAsync();
         Task<Resultado<TarefaViewModel>> DeletarTarefaAsync(int id);
         Task<Resultado<List<TarefaViewModel>>> ListarTarefaPorProjetoAsync(int projetoId);
+        Task<Resultado<List<RelatorioDesempenhoViewModel>>> GerarRelatorioDesempenhoAsync();
     }
 }

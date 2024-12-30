@@ -38,6 +38,26 @@ namespace api.eclipse.controle.projetos.Data.Repository
 
         public async Task<List<Tarefa>> ListarTarefasAsync() =>  await _context.Tarefa.ToListAsync();
 
+
+        public async Task<List<RelatorioDesempenho>> GerarRelatorioDesempenhoAsync()
+        {
+            var dataLimite = DateTime.Now.AddDays(-30);
+
+            var resultado = await _context.Tarefa
+                .Where(t => t.StatusId.Equals(StatusProjetoEnum.Finalizado) 
+                 && t.DataEntrega != null 
+                 && t.DataEntrega >= dataLimite)
+                .GroupBy(t => t.UsuarioId)
+                .Select(g => new RelatorioDesempenho
+                {
+                    UsuarioId = g.Key,
+                    MediaTarefasConcluidas = g.Count()
+                })
+                .ToListAsync();
+
+            return resultado;
+        }
+
         public void DeletarTarefas(List<Tarefa> Tarefas)
         {
             _context.RemoveRange(Tarefas);

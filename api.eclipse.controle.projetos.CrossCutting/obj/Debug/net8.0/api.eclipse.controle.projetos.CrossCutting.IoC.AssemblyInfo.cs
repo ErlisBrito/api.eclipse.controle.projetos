@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api.eclipse.controle.projetos.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fe071812fbb5b92c3edbec0970ecea72569916")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30567219dc5d9fbd40274f235034393054bc8009")]
 [assembly: System.Reflection.AssemblyProductAttribute("api.eclipse.controle.projetos.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api.eclipse.controle.projetos.CrossCutting.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
