@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos", "api.eclipse.controle.projetos\api.eclipse.controle.projetos.csproj", "{D76E411D-BEDE-4375-A5C3-A86866482667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos", "api.eclipse.controle.projetos\api.eclipse.controle.projetos.csproj", "{D76E411D-BEDE-4375-A5C3-A86866482667}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Application", "1- Application", "{A3BF8145-0838-4314-8959-0CDD48DC6820}"
 EndProject
@@ -17,19 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{D19B1073-5A9B-49EF-AE25-0AC1CB782BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.Application", "api.eclipse.controle.projetos.Application\api.eclipse.controle.projetos.Application.csproj", "{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos.Application", "api.eclipse.controle.projetos.Application\api.eclipse.controle.projetos.Application.csproj", "{2F7E1DDF-5765-4DD8-BB50-0A12809EA034}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.Domain", "api.eclipse.controle.projetos.Domain\api.eclipse.controle.projetos.Domain.csproj", "{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos.Domain", "api.eclipse.controle.projetos.Domain\api.eclipse.controle.projetos.Domain.csproj", "{67D3B408-74CC-425B-9F05-2A8AA23E5C9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{122C6C9C-DC43-425D-B9D5-595888B9A0F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{545F243B-BA17-4E7E-8DC5-AAAD55CC6DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.Data", "api.eclipse.controle.projetos.Data\api.eclipse.controle.projetos.Data.csproj", "{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos.Data", "api.eclipse.controle.projetos.Data\api.eclipse.controle.projetos.Data.csproj", "{FA61B6A0-674E-43E2-BE9B-0B3014C5C327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.CrossCutting.IoC", "api.eclipse.controle.projetos.CrossCutting\api.eclipse.controle.projetos.CrossCutting.IoC.csproj", "{907FAF54-BB69-4236-AA71-371B439E28E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos.CrossCutting.IoC", "api.eclipse.controle.projetos.CrossCutting\api.eclipse.controle.projetos.CrossCutting.IoC.csproj", "{907FAF54-BB69-4236-AA71-371B439E28E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.Common", "api.eclipse.controle.projetos.Common\api.eclipse.controle.projetos.Common.csproj", "{1587C0DC-E9FC-4076-B101-28329B11945A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.eclipse.controle.projetos.Common", "api.eclipse.controle.projetos.Common\api.eclipse.controle.projetos.Common.csproj", "{1587C0DC-E9FC-4076-B101-28329B11945A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.eclipse.controle.projetos.Tests", "api.eclipse.controle.projetos.Tests\api.eclipse.controle.projetos.Tests.csproj", "{DC8B640A-D292-4F14-977A-1881C482E54E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{1587C0DC-E9FC-4076-B101-28329B11945A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1587C0DC-E9FC-4076-B101-28329B11945A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1587C0DC-E9FC-4076-B101-28329B11945A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8B640A-D292-4F14-977A-1881C482E54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8B640A-D292-4F14-977A-1881C482E54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8B640A-D292-4F14-977A-1881C482E54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8B640A-D292-4F14-977A-1881C482E54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{FA61B6A0-674E-43E2-BE9B-0B3014C5C327} = {122C6C9C-DC43-425D-B9D5-595888B9A0F4}
 		{907FAF54-BB69-4236-AA71-371B439E28E3} = {545F243B-BA17-4E7E-8DC5-AAAD55CC6DA0}
 		{1587C0DC-E9FC-4076-B101-28329B11945A} = {F5610E04-540F-49E6-B155-904BB2EADBFC}
+		{DC8B640A-D292-4F14-977A-1881C482E54E} = {B5337618-C138-45F8-939B-FEBE6983EAB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A90D3ED-48FF-418E-8B53-DD92A53A9C42}

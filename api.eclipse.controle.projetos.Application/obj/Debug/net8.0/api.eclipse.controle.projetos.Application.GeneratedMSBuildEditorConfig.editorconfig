@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = api.eclipse.controle.projetos.Application
-build_property.ProjectDir = C:\Users\ERLIS.LIMA\source\repos\api.eclipse.controle.projetos\api.eclipse.controle.projetos.Application\
+build_property.ProjectDir = C:\Projetos\api.eclipse.controle.projetos\api.eclipse.controle.projetos.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
