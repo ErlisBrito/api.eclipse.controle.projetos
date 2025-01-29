@@ -1,18 +1,24 @@
-name: Docker Image CI
+name: Build and Run Dockerfile
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: docker build -t api-eclipse-controle-projetos -f api.eclipse.controle.projetos/Dockerfile .
+
+    - name: Run Docker container
+      run: docker run -d -p 8080:8080 -p 8081:8081 api-eclipse-controle-projetos
+      
